@@ -1,0 +1,16 @@
+{
+    "name": "package-json-snapshots",
+    "packageManager": "yarn@4.9.2",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "check": "tsc --noemit -p tsconfig.json",
+        "generate": "node ./generate/run.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^24.5.1",
+        "prettier": "^3.6.2",
+        "sv": "https://pkg.pr.new/sveltejs/cli/sv@719",
+        "typescript": "^5.9.2"
+    }
+}
